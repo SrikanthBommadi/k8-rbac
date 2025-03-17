@@ -1,0 +1,19 @@
+apiVersion: v1
+data:
+  mapRoles: |
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::010526266250:role/eksctl-srikanth-nodegroup-srikanth-NodeInstanceRole-kVirlPBzx7jM
+      username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: |
+    - groups:
+      - fresher
+      userarn: arn:aws:iam::010526266250:user/fresherSSS
+      username: fresher
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-03-17T11:53:22Z"
+  name: aws-auth
+  namespace: kube-system
+  uid: 12122b7a-39d7-4312-8f6a-f77c81073e38
