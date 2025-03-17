@@ -14,6 +14,6 @@ data:
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-03-17T11:53:22Z"
-  name: aws-auth
+  name: fresher
   namespace: kube-system
   uid: 12122b7a-39d7-4312-8f6a-f77c81073e38
