@@ -9,7 +9,7 @@ data:
   mapUsers: |
     - groups:
       - fresher
-      userarn: arn:aws:iam::010526266250:user/fresherSSS
+      userarn: arn:aws:iam::010526266250:user/fresher
       username: fresher
 kind: ConfigMap
 metadata:
